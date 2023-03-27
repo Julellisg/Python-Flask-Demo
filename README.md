@@ -15,9 +15,9 @@ Below will provide a short overview of what was done for each part of Question 2
 
 ### Output Files
 Both of these files contain the telemetry data that was received during the testing phase. They have been split up due to their very large size.
-[Link to raw_output.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/raw_output.txt)
-[Link to traces.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/traces.txt)
-[Link to metrics.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/metrics.txt)
+- [Link to raw_output.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/raw_output.txt)
+- [Link to traces.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/traces.txt)
+- [Link to metrics.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/metrics.txt)
 
 ### Part A) Choosing a System
 After consulting the OpenTelemetry website for support languages, a system was programmed using Python code that uses OpenTelemetry to distrubutes tracing and metric data in a Flask application.
