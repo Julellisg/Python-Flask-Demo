@@ -3,7 +3,8 @@
 - Requires data to be instrumented using OpenTelemetry, implemented in Python.
 - Instrumented data should include: traces, metrics, and logs. 
 - Data should be visualized, using Jaeger. 
-- Source code should have already been included in initial assignment submission on Sakai. 
+- Source code should have already been included in initial assignment submission on Sakai.
+- **NOTE**: a few folders could not be uploaded due to commit/push errors.
 - Reference: https://opentelemetry.io/docs/instrumentation/python/
 
 ## Report
@@ -13,10 +14,10 @@ The report for this question can be found [here](https://github.com/Julellisg/Py
 Below will provide a short overview of what was done for each part of Question 2. 
 
 ### Output Files
-Both of these files contain the telemetry data that was received during the testing phase. 
-They have been split up due to their very large size. 
-[Link to traces.txt]()
-[Link to metrics.txt]()
+Both of these files contain the telemetry data that was received during the testing phase. They have been split up due to their very large size.
+[Link to raw_output.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/raw_output.txt)
+[Link to traces.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/traces.txt)
+[Link to metrics.txt](https://github.com/Julellisg/Python-Flask-Demo/blob/main/metrics.txt)
 
 ### Part A) Choosing a System
 After consulting the OpenTelemetry website for support languages, a system was programmed using Python code that uses OpenTelemetry to distrubutes tracing and metric data in a Flask application.
