@@ -1,0 +1,145 @@
+{
+    "name": "do_roll",
+    "context": {
+        "trace_id": "0x2046f6791444fded90da27b5f7e4a5b6",
+        "span_id": "0x815aa4cb900aa7d2",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xe09a97babed89ac9",
+    "start_time": "2023-03-27T01:16:38.092249Z",
+    "end_time": "2023-03-27T01:16:38.092249Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "roll.value": 8
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.17.0",
+            "telemetry.auto.version": "0.38b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+
+{
+    "name": "/rolldice",
+    "context": {
+        "trace_id": "0x2046f6791444fded90da27b5f7e4a5b6",
+        "span_id": "0xe09a97babed89ac9",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.SERVER",
+    "parent_id": null,
+    "start_time": "2023-03-27T01:16:38.091249Z",
+    "end_time": "2023-03-27T01:16:38.092249Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "http.method": "GET",
+        "http.server_name": "127.0.0.1",
+        "http.scheme": "http",
+        "net.host.port": 8080,
+        "http.host": "127.0.0.1:8080",
+        "http.target": "/rolldice",
+        "net.peer.ip": "127.0.0.1",
+        "http.user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0",
+        "net.peer.port": 1240,
+        "http.flavor": "1.1",
+        "http.route": "/rolldice",
+        "http.status_code": 200
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.17.0",
+            "telemetry.auto.version": "0.38b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+
+{
+    "name": "do_roll",
+    "context": {
+        "trace_id": "0x63865733728dbcc658d74653112d65c3",
+        "span_id": "0x15712753130c32fb",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xf71dd50103550034",
+    "start_time": "2023-03-27T01:18:07.249272Z",
+    "end_time": "2023-03-27T01:18:07.249272Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "roll.value": 5
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.17.0",
+            "telemetry.auto.version": "0.38b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+
+{
+    "name": "/rolldice",
+    "context": {
+        "trace_id": "0x63865733728dbcc658d74653112d65c3",
+        "span_id": "0xf71dd50103550034",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.SERVER",
+    "parent_id": null,
+    "start_time": "2023-03-27T01:18:07.248272Z",
+    "end_time": "2023-03-27T01:18:07.249272Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "http.method": "GET",
+        "http.server_name": "127.0.0.1",
+        "http.scheme": "http",
+        "net.host.port": 8080,
+        "http.host": "127.0.0.1:8080",
+        "http.target": "/rolldice",
+        "net.peer.ip": "127.0.0.1",
+        "http.user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0",
+        "net.peer.port": 1284,
+        "http.flavor": "1.1",
+        "http.route": "/rolldice",
+        "http.status_code": 200
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.17.0",
+            "telemetry.auto.version": "0.38b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}

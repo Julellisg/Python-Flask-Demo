@@ -7,7 +7,7 @@
 - Reference: https://opentelemetry.io/docs/instrumentation/python/
 
 ## Report
-
+The report for this question can be found [here](https://github.com/Julellisg/Python-Flask-Demo/blob/main/Report.pdf).
 
 ## Summary of the Assignment
 Below will provide a short overview of what was done for each part of Question 2. 
